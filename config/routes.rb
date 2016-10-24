@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  # get 'shows' => 'shows#index'
+  get 'shows' => 'shows#index'
 
   scope path: "api" do
     resources :shows
